@@ -9,10 +9,7 @@ public class MinesGame {
     boolean isEnded = false;
     int counterForAction = 0;
 
-    public static void main(String[] args) {
-      MinesGame minesGame = new MinesGame();
-      minesGame.start();
-    }
+
 
     public MinesGame() {
         Scanner scanner = new Scanner(System.in);           // local scanner initiation
